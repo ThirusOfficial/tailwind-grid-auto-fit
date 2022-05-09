@@ -1,0 +1,14 @@
+{
+  "name": "@shrutibalasa/tailwind-grid-auto-fit",
+  "version": "1.0.0",
+  "description": "Tailwind CSS utility classes for creating responsive grid columns without media queries using auto fit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shruti Balasa",
+  "license": "ISC",
+  "devDependencies": {
+      "tailwindcss": "^3.0.0"
+   }
+}
