@@ -12,6 +12,7 @@ const gridAutoFit = plugin(function({ matchUtilities, theme }) {
    {
      theme: {
       gridAutoFit: {
+         'DEFAULT': '16rem',
          'xs': '12rem',
          'sm': '14rem',
          'md': '16rem',

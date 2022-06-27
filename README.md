@@ -26,10 +26,10 @@ module.exports = {
 
 ## Basic usage
 
-Use the class `grid-auto-fit-*` along with `grid` class to create a responsive grid layout.
+Use the class `grid-auto-fit` along with `grid` class to create a responsive grid layout.
 
 ```
-<section class="grid gap-4 grid-auto-fit-sm">
+<section class="grid gap-4 grid-auto-fit">
    <div class="p-4 bg-blue-100 rounded-md">
       Item 1
    </div>
@@ -54,17 +54,17 @@ Use the class `grid-auto-fit-*` along with `grid` class to create a responsive g
 </section>
 ```
 
-## Choosing a grid item size
+## Changing the grid item size
 
-This plugin includes five item sizes by default
+Use utilities like `.grid-auto-fit-sm`, `.grid-auto-fit-xl` to change the minimum and maximum item size of the responsive grid. This plugin includes five item sizes with the default minimum size being 16rem.
 
-| Class              | Minimum item width |
-| ------------------ | ------------------ |
-| `grid-auto-fit-xs` | `12rem`            |
-| `grid-auto-fit-sm` | `14rem`            |
-| `grid-auto-fit-md` | `16rem`            |
-| `grid-auto-fit-lg` | `18rem`            |
-| `grid-auto-fit-xl` | `20rem`            |
+| Class                                 | Minimum item width |
+| ------------------------------------- | ------------------ |
+| `grid-auto-fit-xs`                    | `12rem`            |
+| `grid-auto-fit-sm`                    | `14rem`            |
+| `grid-auto-fit` or `grid-auto-fit-md` | `16rem`            |
+| `grid-auto-fit-lg`                    | `18rem`            |
+| `grid-auto-fit-xl`                    | `20rem`            |
 
 ## Arbitrary values
 
